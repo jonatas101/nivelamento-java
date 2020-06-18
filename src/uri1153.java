@@ -8,12 +8,20 @@ public class uri1153 {
 
 		int n = sc.nextInt();
 		
-		int fat = 1;
-		for (int i=1; i<=n; i++) {
+		if (n == 0){
+			System.out.println("1");
+		}else{
+				
+			int fat = 1;
+			
+			for (int i=1; i<=n; i++) {
 			fat = fat * i;
+				
+			}
+			
+			System.out.println(fat);
+				
 		}
-		
-		System.out.println(fat);
 		
 		sc.close();
 	}
